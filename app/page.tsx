@@ -13,30 +13,45 @@ export default function StartupNameGenerator() {
   const [showResult, setShowResult] = useState(false)
 
   const sampleNames = [
-    "TechFlow",
-    "DataSync",
-    "CloudVault",
-    "NextGen",
-    "InnovateLab",
-    "StreamCore",
-    "PixelForge",
-    "CodeCraft",
-    "FlowState",
-    "ByteWave",
-    "NeuralLink",
-    "QuantumLeap",
-    "SkyBridge",
-    "FireBase",
-    "IceBreaker",
-    "ThunderBolt",
-    "LightSpeed",
-    "DeepDive",
-    "RocketFuel",
-    "StarForge",
-    "MoonShot",
-    "SunRise",
-    "WaveRider",
-    "StormChaser",
+    "Nexus", // 5
+    "Apex", // 4
+    "Nova", // 4
+    "Flux", // 4
+    "Echo", // 4
+    "Sync", // 4
+    "Core", // 4
+    "Peak", // 4
+    "Flow", // 4
+    "Rise", // 4
+    "Edge", // 4
+    "Dash", // 4
+    "Bold", // 4
+    "Pure", // 4
+    "Mint", // 4
+    "Neon", // 4
+    "Zap", // 3
+    "Arc", // 3
+    "Hex", // 3
+    "Orb", // 3
+    "Spark", // 5
+    "Swift", // 5
+    "Smart", // 5
+    "Quick", // 5
+    "Pulse", // 5
+    "Shift", // 5
+    "Cyber", // 5
+    "Logic", // 5
+    "Pixel", // 5
+    "Laser", // 5
+    "Fiber", // 5
+    "Micro", // 5
+    "Neural", // 6
+    "Matrix", // 6
+    "Vector", // 6
+    "Signal", // 6
+    "Binary", // 6
+    "Vision", // 6
+    "Stream", // 6
   ]
 
   useEffect(() => {
@@ -140,7 +155,7 @@ export default function StartupNameGenerator() {
 
         {!isAnimating && (
           <div className="pt-8">
-            <p className="text-sm text-[#717372]/60">Powered by AI • Generate unlimited names</p>
+            <p className="text-sm text-[#717372]/60">Powered by ThairaHub • Generate unlimited names</p>
           </div>
         )}
       </div>

@@ -23,7 +23,17 @@ prefixes = [
     "Nexus", "Quantum", "Vertex", "Zenith", "Apex", "Flux", "Nova", "Pulse",
     "Spark", "Vibe", "Echo", "Shift", "Flow", "Rise", "Peak", "Edge",
     "Core", "Sync", "Leap", "Dash", "Swift", "Bold", "Pure", "Bright",
-    "Smart", "Quick", "Fast", "Pro", "Max", "Ultra", "Super", "Mega"
+    "Smart", "Quick", "Fast", "Pro", "Max", "Ultra", "Super", "Mega",
+    "Beam", "Crux", "Link", "Axis", "Lume", "Trek", "Grip", "Hype", "Blip", "Byte",
+    "Ping", "Zoom", "Spin", "Drip", "Volt", "Glint", "Blaze", "Orbit", "Prime", "Quest",
+    "Plex", "Jolt", "Loop", "Clix", "Snap", "Amp", "Bit", "Tap", "Dyn", "Kin",
+    "Zyn", "Xen", "Opt", "Lum", "Mod", "Nod", "Rov", "Sky", "Strm", "Fyn",
+    "Glyph", "Code", "Data", "Cast", "Base", "Node", "Spec", "True", "Ping", "Tide",
+    "Path", "Mesh", "Net", "Sig", "Pix", "Pod", "Arc", "Vox", "Ray", "Aim",
+    "Zapz", "Volt", "Brix", "Echoo", "Thry", "Lynk", "Vybe", "Grav", "Axel", "Spinr",
+    "Blink", "Shft", "Drft", "Clue", "Star", "Meta", "Lite", "Grid", "Form", "Tone",
+    "Snapz", "Fluxy", "Zorb", "Qik", "Tron", "Cynk", "Glxy", "Wave", "Pwr", "Zenx",
+    "Kick", "Lyn", "Neo", "Jet", "Run", "Ampx", "Skyx", "Phaze", "Strk", "Orin"
 ]
 
 suffixes = [
@@ -36,7 +46,16 @@ tech_words = [
     "Data", "Cloud", "Cyber", "Digital", "Crypto", "Block", "Chain", "Neural",
     "Logic", "Pixel", "Code", "Byte", "Link", "Stream", "Grid", "Matrix",
     "Vector", "Signal", "Circuit", "Binary", "Laser", "Fiber", "Nano",
-    "Micro", "Meta", "Virtual", "Augmented", "Reality", "Vision", "Mind"
+    "Micro", "Meta", "Virtual", "Augmented", "Reality", "Vision", "Mind",
+        # New additions:
+    "Quantum", "AI", "Bot", "Script", "Compute", "Server", "Node", "Portal",
+    "Core", "Hub", "Kernel", "Frame", "Module", "Cache", "Packet", "Ping",
+    "Protocol", "Syntax", "Terminal", "Cluster", "Array", "Field", "Orbit",
+    "Pulse", "Spark", "Volt", "Wave", "Flux", "Drive", "Port", "Layer",
+    "Pixelate", "Render", "Shader", "Glyph", "Cipher", "Hash", "Token",
+    "Ledger", "Turing", "NeuralNet", "Holo", "Lens", "Drone", "Sensor",
+    "Beacon", "Bit", "Chip", "LogicGate", "Sim", "Model", "Engine", "Streamline",
+    "Overlay", "Hyperlink", "Upload", "Download", "Encrypt", "Decrypt"
 ]
 
 @app.get("/")
