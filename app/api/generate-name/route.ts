@@ -2,6 +2,7 @@ import { NextResponse } from "next/server"
 
 const prefixes = [
   "Nexus", // 5
+  "Verse",
   "Apex", // 4
   "Flux", // 4
   "Nova", // 4
